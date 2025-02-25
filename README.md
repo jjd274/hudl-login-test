@@ -1,6 +1,6 @@
 # HUDL Login Test Suite
 
-This project is designed to automate login tests for the Hudl recruitment task, using cypress and cucumber.
+This project is designed to automate login tests for the Hudl recruitment task, using Cypress and Cucumber.
 
 Cucumber is an automation framework for Behavior-Driven Development. The specifications are written in plain text, which allows them to be easily understandable for all stakeholders. 
 
@@ -20,7 +20,7 @@ Before you begin, ensure you have the following installed:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/jjd274/hudl-login-test/
-   cd hudl-cypress
+   cd hudl-login-test
    npm install
 
 ## Install
