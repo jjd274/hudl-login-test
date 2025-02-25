@@ -1,10 +1,10 @@
-# HUDL Login Test Suite
+# Hudl Login Test Suite
 
 This project is designed to automate login tests for the Hudl recruitment task, using cypress and cucumber.
 
-Cucumber is an automation framework for Behavior-Driven Development. The specifications are written in plain text, which allows them to be easily understandable for all stakeholders and particularly for login scenarios, allows easier re-use and extension of test scenario.  
+Cucumber is an automation framework for Behaviour-Driven Development. The specifications are written in plain text, which allows them to be easily understandable for all stakeholders and particularly for login scenarios, allows easier re-use and extension of test scenario.  
 
-Thie was written in Cypress due to it being a more familiar test automation framework to me.
+I decided to write this using Cypress / JavaScript due to it being a more familiar test automation framework to me.
 
 ## Structure
 
@@ -13,7 +13,7 @@ Note: within this file, you will need to update the DATA_PASSWORD to a valid pas
 
 Feature Files 
 
-The tests as part of a cucumber feature file located in cypress > e2e > examples > login.feature, with the corresponding code loccated in cypress >> e2e >> login >> login.js.  
+The tests as part of a cucumber feature file located in cypress > e2e > examples > login.feature, with the corresponding code located in cypress >> e2e >> login >> login.js.  
 
 These consist of the following scenarios which can be extended further by adding additional parameters into them, such as users or URLs.
 
