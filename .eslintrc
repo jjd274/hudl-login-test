@@ -1,0 +1,284 @@
+{
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "globals": {
+        "Cypress": true,
+        "cy": true,
+        "require": true,
+        "module": true,
+        "beforeEach": true,
+        "before": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+    },
+    "rules": {
+        "array-bracket-spacing": [
+            "error",
+            "always"
+        ],
+        "array-callback-return": [
+            "error"
+        ],
+        "block-spacing": [
+            "error"
+        ],
+        "brace-style": [
+            "error",
+            "1tbs",
+            { "allowSingleLine": true }
+        ],
+        "camelcase": [
+            "error"
+        ],
+        "complexity": [
+            "warn"
+        ],
+        "comma-spacing": [
+            "error",
+            { "before": false, "after": true }
+        ],
+        "computed-property-spacing": [
+            "warn",
+            "always"
+        ],
+        "consistent-return": [
+            "warn"
+        ],
+        "consistent-this": [
+            "warn",
+            "_self",
+            "ctrl"
+        ],
+        "curly": [
+            "error"
+        ],
+        "default-case": [
+            "error"
+        ],
+        "dot-notation": [
+            "warn",
+            {"allowKeywords": true}
+        ],
+        "eqeqeq": [
+            "error",
+            "always"
+        ],
+        "guard-for-in": [
+            "error"
+        ],
+        "id-length": [
+            "error",
+            { "min": 2, "max" : 40, "exceptions": ["_", "id", "a", "b", "e", "i", "j", "k", "ng", "$q", "en", "x1", "x2", "y1", "y2", "w", "h", "x", "y"] }
+        ],
+        "indent": [
+            "error",
+            4,
+            { "SwitchCase" : 1 }
+        ],
+        "key-spacing": [
+            "error"
+        ],
+        "keyword-spacing": [
+            "error",
+            {"before": true, "after": true}
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "max-lines": [
+            "warn",
+            { "max": 500, "skipComments": true }
+        ],
+        "new-cap": [
+            "error",
+            { "capIsNewExceptions": ["Given", "When", "Then", "Log"] }
+        ],
+        "new-parens": [
+            "error"
+        ],
+        "no-alert": [
+            "error"
+        ],
+        "no-caller": [
+            "error"
+        ],
+        "no-console": [
+            "error",
+            { "allow": ["info", "warn", "error"] }
+        ],
+        "no-else-return": [
+            "warn"
+        ],
+        "no-empty-function": [
+            "error"
+        ],
+        "no-eq-null": [
+            "error"
+        ],
+        "no-eval": [
+            "error"
+        ],
+        "no-extend-native": [
+            "error"
+        ],
+        "no-extra-bind": [
+            "error"
+        ],
+        "no-extra-label": [
+            "error"
+        ],
+        "no-floating-decimal": [
+            "error"
+        ],
+        "no-implied-eval": [
+            "error"
+        ],
+        "no-iterator": [
+            "error"
+        ],
+        "no-labels": [
+            "error"
+        ],
+        "no-lone-blocks": [
+            "error"
+        ],
+        "no-lonely-if": [
+            "error"
+        ],
+        "no-loop-func": [
+            "error"
+        ],
+        "no-magic-numbers": [
+            "error",
+            {
+                "ignore": [-1, 0, 1, 100],
+                "ignoreArrayIndexes": true
+            }
+        ],
+        "no-mixed-operators": [
+            "error"
+        ],
+        "no-multi-str": [
+            "error"
+        ],
+        "no-multiple-empty-lines": [
+            "error",
+            { "max": 2, "maxBOF": 1, "maxEOF": 1 }
+        ],
+        "no-multi-spaces": [
+            "warn"
+        ],
+        "no-new-func": [
+            "error"
+        ],
+        "no-new-object": [
+            "error"
+        ],
+        "no-new-wrappers": [
+            "warn"
+        ],
+        "no-param-reassign": [
+            "error"
+        ],
+        "no-proto": [
+            "error"
+        ],
+        "no-return-assign": [
+            "error",
+            "except-parens"
+        ],
+        "no-script-url": [
+            "error"
+        ],
+        "no-self-compare": [
+            "error"
+        ],
+        "no-shadow": [
+            "warn", { "allow": [ "$scope" ] }
+        ],
+        "no-shadow-restricted-names": [
+            "error"
+        ],
+        "no-throw-literal": [
+            "error"
+        ],
+        "no-trailing-spaces": [
+            "error",
+            { "skipBlankLines": true }
+        ],
+        "no-undef-init": [
+            "error"
+        ],
+        "no-undefined": [
+            "error"
+        ],
+        "no-unsafe-finally": [
+            "error"
+        ],
+        "no-unused-vars": [
+            "error"
+        ],
+        "no-useless-call": [
+            "warn"
+        ],
+        "no-useless-concat": [
+            "error"
+        ],
+        "no-useless-escape": [
+            "error"
+        ],
+        "no-void": [
+            "error"
+        ],
+        "no-with": [
+            "error"
+        ],
+        "operator-linebreak": [
+            "error",
+            "after"
+        ],
+        "quote-props": [
+            "warn",
+            "as-needed",
+            { "keywords": false }
+        ],
+        "quotes": [
+            "error",
+            "single",
+            { "avoidEscape": true }
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "semi-spacing": [
+            "error"
+        ],
+        "space-before-blocks": [
+            "error"
+        ],
+        "space-in-parens": [
+            "error", "always"
+        ],
+        "space-infix-ops": [
+            "error"
+        ],
+        "valid-jsdoc": [
+            "warn",
+            {
+                "requireReturn": false,
+                "requireParamDescription": false,
+                "requireReturnDescription": false
+            }
+        ],
+        "wrap-iife": [
+            "warn"
+        ]
+    }
+}
