@@ -11,7 +11,9 @@ Note: within this file, you will need to update the DATA_PASSWORD to a valid pas
 
 Feature Files 
 
-The tests as part of a feature file located in cypress > e2e > exampls > login.feature, These consist of the following scenarios: 
+The tests as part of a cucumber feature file located in cypress > e2e > exampls > login.feature, with the corresponding code loccated in cypress >> e2e >> login >> login.js.  
+
+These consist of the following scenarios which can be extended further by adding additional parameters into them, such as users or URLs.
 
 Feature: Login
 
@@ -120,3 +122,9 @@ Before you begin, ensure you have the following installed:
 
 - run `npm start` - this opens the cypress app to run tests manually
 - run `npm test` - this runs the entire test suite in terminal/command line and will run anything tagged with `@regression`
+
+## Observations / Notes
+Inconsistent use of element identifiers meant I had to use a mixture of specific data-qa-id values, class names and ids. 
+Error messages differ between invalid email address and password entered. This is a potential security risk and vulnerability to brute force attacks, allowing bad actors to determine valid users of the system. 
+I experienced challenges interacting with the nav menu to verify a logged out state, as it seemed to have hidden parent elements preventing me from clicking on the menu, resulting in the second scenario in the feature file failing.
+
