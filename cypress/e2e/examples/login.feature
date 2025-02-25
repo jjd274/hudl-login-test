@@ -12,7 +12,7 @@ Feature: Login
     
         Examples:
             |URL|User|
-            |"https://www.hudl.com/en_gb/"| "jonathanjldavies@gmail.com" |
+            |"https://www.hudl.com/en_gb/"| "<enter email address>" |
 
     @regression
     Scenario Outline: I can logout of Hudl 
@@ -22,7 +22,7 @@ Feature: Login
         Then I am successfully logged out
         Examples:
             |URL|User|
-            |"https://www.hudl.com/en_gb/"| "jonathanjldavies@gmail.com" |
+            |"https://www.hudl.com/en_gb/"| "<enter email address>" |
 
 
 
@@ -63,7 +63,7 @@ Feature: Login
         Examples:
             
             |URL|User|
-            | "https://www.hudl.com/en_gb/" | "jonathanjldavies@gmail.com" |
+            | "https://www.hudl.com/en_gb/" | "<enter email address>" |
             
     @regression
     Scenario Outline: I can edit my username once entered
@@ -76,4 +76,4 @@ Feature: Login
         Examples:
             
             |URL|User|
-            | "https://www.hudl.com/en_gb/" | "jonathanjldavies@gmail.com" |
+            | "https://www.hudl.com/en_gb/" | "<enter email address>" |
