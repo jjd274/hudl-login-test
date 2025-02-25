@@ -13,7 +13,7 @@ Note: within this file, you will need to update the DATA_PASSWORD to a valid pas
 
 Feature Files 
 
-The tests as part of a cucumber feature file located in cypress > e2e > exampls > login.feature, with the corresponding code loccated in cypress >> e2e >> login >> login.js.  
+The tests as part of a cucumber feature file located in cypress > e2e > examples > login.feature, with the corresponding code loccated in cypress >> e2e >> login >> login.js.  
 
 These consist of the following scenarios which can be extended further by adding additional parameters into them, such as users or URLs.
 
