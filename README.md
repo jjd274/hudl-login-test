@@ -120,5 +120,5 @@ Before you begin, ensure you have the following installed:
 ## Observations / Notes
 - Inconsistent use of element identifiers meant I had to use a mixture of specific data-qa-id values, class names and ids. 
 - Error messages differ between invalid email address and password entered. This is a potential security risk and vulnerability to brute force attacks, allowing bad actors to determine valid users of the system. 
-- I experienced challenges interacting with the nav menu to verify a logged out state, as it seemed to have hidden parent elements preventing me from clicking on the menu, resulting in the second scenario in the feature file failing.
+- I experienced challenges interacting with the nav menu to verify a logged out state, as it seemed to have hidden parent elements preventing me from clicking on the menu. This resulted in the final step for the second scenario in the feature file failing.
 
