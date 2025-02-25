@@ -2,7 +2,9 @@
 
 This project is designed to automate login tests for the Hudl recruitment task, using cypress and cucumber.
 
-Cucumber is an automation framework for Behavior-Driven Development. The specifications are written in plain text, which allows them to be easily understandable for all stakeholders. 
+Cucumber is an automation framework for Behavior-Driven Development. The specifications are written in plain text, which allows them to be easily understandable for all stakeholders and particularly for login scenarios, allows easier re-use and extension of test scenario.  
+
+Thie was written in Cypress due to it being a more familiar test automation framework to me.
 
 ## Structure
 
@@ -124,7 +126,7 @@ Before you begin, ensure you have the following installed:
 - run `npm test` - this runs the entire test suite in terminal/command line and will run anything tagged with `@regression`
 
 ## Observations / Notes
-Inconsistent use of element identifiers meant I had to use a mixture of specific data-qa-id values, class names and ids. 
-Error messages differ between invalid email address and password entered. This is a potential security risk and vulnerability to brute force attacks, allowing bad actors to determine valid users of the system. 
-I experienced challenges interacting with the nav menu to verify a logged out state, as it seemed to have hidden parent elements preventing me from clicking on the menu, resulting in the second scenario in the feature file failing.
+- Inconsistent use of element identifiers meant I had to use a mixture of specific data-qa-id values, class names and ids. 
+- Error messages differ between invalid email address and password entered. This is a potential security risk and vulnerability to brute force attacks, allowing bad actors to determine valid users of the system. 
+- I experienced challenges interacting with the nav menu to verify a logged out state, as it seemed to have hidden parent elements preventing me from clicking on the menu, resulting in the second scenario in the feature file failing.
 
