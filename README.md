@@ -9,7 +9,7 @@ I decided to write this using Cypress / JavaScript due to it being a more famili
 ## Structure
 
 config.js file contains re-usable variables such as page objects and data.
-Note: within this file, you will need to update the **DATA_PASSWORD** to a valid password corresponding to the user referenced in the feature files below, which will also need to be updated with the user's email address within the **"<add user here>"** examples before execution. 
+Note: within this file, you will need to update the **DATA_PASSWORD** to a valid password corresponding to the user referenced in the feature files below, which will also need to be updated with the user's email address within the **<add user here>** examples before execution. 
 
 Feature Files 
 
