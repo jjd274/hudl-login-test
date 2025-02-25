@@ -98,17 +98,9 @@ Before you begin, ensure you have the following installed:
 - **Node.js**: Make sure Node.js is installed on your machine. You can download it from [nodejs.org](https://nodejs.org/).
 - **npm (Node Package Manager)**: npm is installed automatically with Node.js.
 
-## Installation
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/hudl-login-test
-   cd hudl-login-test
-   npm install
-
 ## Install
 
-- clone repo
+- clone repo https://github.com/your-username/hudl-login-test
 - run `npm i`
 
 ---
