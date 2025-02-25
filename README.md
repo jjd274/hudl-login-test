@@ -6,7 +6,7 @@ Cucumber is an automation framework for Behavior-Driven Development. The specifi
 
 ## Structure
 
-config.js file contains re-usable 
+config.js file contains re-usable variables such as page objects and data. 
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/hudl-cypress
+   git clone https://github.com/jjd274/hudl-login-test/
    cd hudl-cypress
    npm install
 
