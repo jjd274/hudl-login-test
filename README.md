@@ -1,7 +1,27 @@
-# White Label UI Test Suite
+# HUDL Login Test Suite
 
-This repository is a seed which contains the basic set up for browser testing with cypress and cucumber.
-The sample test in this repository uses the Pulselive website.
+This project is designed to automate login tests for the Hudl recruitment task, using cypress and cucumber.
+
+Cucumber is an automation framework for Behavior-Driven Development. The specifications are written in plain text, which allows them to be easily understandable for all stakeholders. 
+
+## Structure
+
+config.js file contains re-usable 
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- **Node.js**: Make sure Node.js is installed on your machine. You can download it from [nodejs.org](https://nodejs.org/).
+- **npm (Node Package Manager)**: npm is installed automatically with Node.js.
+
+## Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/hudl-cypress
+   cd hudl-cypress
+   npm install
 
 ## Install
 
@@ -21,25 +41,3 @@ The sample test in this repository uses the Pulselive website.
 
 - run `npm start` - this opens the cypress app to run tests manually
 - run `npm test` - this runs the entire test suite in terminal/command line and will run anything tagged with `@regression`
-
-#### Run Tests via other tags
-
-- run only tests with tag "smoke" `npx cypress run -e tags=@smoke`
-- run only tests with tag "smoke" OR "regression" `npx cypress run -e tags=@smoke or @regression`
-- run only tests with tag "smoke" AND "regression" `npx cypress run -e tags=@smoke and @regression`
-
-#### Run Tests within folders or individual specs
-
-- run only tests within folder `npx cypress run --spec 'cypress/e2e/examples'`
-- run only one test `npx cypress run --spec 'cypress/e2e/examples/contact-us.feature'`
-
-## Config variables
-
-There is some default config inside the `./config.js` file which can be overwritten when running the `npm` tasks to run cypress.
-All cypress config variables need to be prefixed with `CYPRESS_`. So overwriting a variable and starting the app would look like this (different environment): `CYPRESS_DOMAIN=https://dev.pulselive.com npm start`
-
-## Currently available variables:
-
-| Name   | Default                      | Description    |
-| ------ | ---------------------------- | -------------- |
-| DOMAIN | `https://www.pulselive.com/` | default domain |
