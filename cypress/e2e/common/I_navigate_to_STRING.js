@@ -3,8 +3,8 @@ import { Given, When, when, then, Then } from '@badeball/cypress-cucumber-prepro
 /*Given('I am on {string}', (URL) => {
     cy.visit(Site), {
         auth: {
-            username: 'pulselive',
-            password: 'Disco Get Salmon Chair',
+            username: '<username>',
+            password: '<password>',
         },
     }
 });*/
